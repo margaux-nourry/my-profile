@@ -1,0 +1,116 @@
+/*Color and font*/
+
+body {
+	background-color:#edf7fa;
+	color: rgb(50,50,50);
+	font-family: 'Lora', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1{
+	color:#056676;
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2{
+	color:#5eaaa8;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #056676;
+	font-weight: bold;
+}
+
+.container {
+	width: 870px;
+	margin: 40px auto;
+}
+
+@media (max-width: 970px){
+	.container{
+		width: 700px
+	}
+}
+
+@media (max-width: 700px){
+	.container{
+		width: 500px
+	}
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+#Présentation{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+    text-align: center
+}
+
+#Formation{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+}
+
+#Compétences{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+}
+
+#Expro{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+}
+
+#Centres{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+}
+
+#Contact{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+}
+
+#Follow{
+	background: white;
+    padding: 30px;
+    margin: 50px;
+    box-shadow: 0px 15px 35px rgba(50,50,93,.2);
+    border-radius: 94px;
+    text-align: center
+}
+
+.list-inline i{
+	font-size: 40px
+}
